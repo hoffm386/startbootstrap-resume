@@ -5,11 +5,14 @@ Template for Flatiron School Data Science students to build a portfolio website
 ## To use:
 1. Make a fork of this repository
 2. Rename the repository `<your github username>.github.io`
-3. Edit `index.html` so it has information about you, and your project
-4. Replace `img/profile.jpg` with a photo of you, and `jupyter_notebooks/example.html` with your actual exported Jupyter Notebook
+3. Clone the repository locally
+4. Edit `index.html` so it has information about you, and your project
+5. Replace `img/profile.jpg` with a photo of you, and `jupyter_notebooks/example.html` with your actual exported Jupyter Notebook (see explanation below for how to export a Jupyter Notebook as HTML)
+6. Git commit and push
+7. Now your website is live!  It might take a couple minutes the first time around, but you should be able to navigate to `https://<your github username>.github.io` in the browser to see your live portfolio.  This is a service of GitHub, called [GitHub Pages](https://help.github.com/en/articles/what-is-github-pages)
 
 ### To export your Jupyter Notebook:
-1. In the same directory as the notebook, run `jupyter nbconvert <your notebook name>.ipynb --to html --output <output file name>.html`
+1. In the same directory as the notebook, run `jupyter nbconvert <your notebook name>.ipynb --to html --output <output file name>.html` (for more details about the different `nbconvert` options, see the [documentation](https://nbconvert.readthedocs.io/en/latest/usage.html))
 2. Move the generated `.html` file into the `jupyter_notebooks` directory of this repository
 3. Edit the link in `index.html` so it points to the generated file.  This will be a relative path, something like `<a href="jupyter_notebooks/king-county-housing.html" class="text-primary">View Jupyter Notebook</a>`
 
