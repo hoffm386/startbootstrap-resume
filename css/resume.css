@@ -2,12 +2,13 @@
  * Start Bootstrap - Resume v5.0.7 (https://startbootstrap.com/template-overviews/resume)
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ * Modified by Erin Hoffman (https://github.com/hoffm386) for Flatiron School
  */
 
 body {
   font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   padding-top: 54px;
-  color: #868e96;
+  color: #2b2b2b;
 }
 
 @media (min-width: 992px) {
@@ -26,7 +27,7 @@ h6 {
   font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-weight: 700;
   text-transform: uppercase;
-  color: #343a40;
+  color: #2b2b2b;
 }
 
 h1 {
@@ -58,7 +59,7 @@ p.lead {
   display: inline-block;
   height: 3.5rem;
   width: 3.5rem;
-  background-color: #495057;
+  background-color: #2b2b2b;
   color: #fff !important;
   border-radius: 100%;
   text-align: center;
@@ -72,7 +73,7 @@ p.lead {
 }
 
 .social-icons a:hover {
-  background-color: #BD5D38;
+  background-color: #6393A6;
 }
 
 .dev-icons {
@@ -80,7 +81,7 @@ p.lead {
 }
 
 .dev-icons .list-inline-item i:hover {
-  color: #BD5D38;
+  color: #733838;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -90,7 +91,7 @@ p.lead {
 }
 
 #sideNav .navbar-toggler:focus {
-  outline-color: #d48a6e;
+  outline-color: #D9B1A3;
 }
 
 @media (min-width: 992px) {
@@ -176,17 +177,17 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #BD5D38 !important;
+  background-color: #733838 !important;
 }
 
 .text-primary {
-  color: #BD5D38 !important;
+  color: #733838 !important;
 }
 
 a {
-  color: #BD5D38;
+  color: #733838;
 }
 
 a:hover, a:focus, a:active {
-  color: #824027;
+  color: #6393A6;
 }
