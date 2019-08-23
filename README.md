@@ -1,8 +1,16 @@
-# Portfolio Website Template
+# Portfolio Website Template - Intro Lesson
 
-Template for Flatiron School Data Science students to build a portfolio website
+## Students Will Be Able To:
+ - [] Describe the value/purpose of a portfolio website
+ - [] Describe the tradeoff between using a template and coding from scratch
+ - [] Understand the basic functionality of HTML and CSS
+ - [] Modify the HTML of a template
+ - [] Modify the CSS of a template
+ - [] Export a Jupyter Notebook so it can be part of a website
+ - [] Add a new HTML file to a website, and link to it via a relative path
+ - [] Deploy a website via GitHub Pages
 
-## To use:
+## To use the template:
 1. Make a fork of this repository
 2. Rename the repository `<your github username>.github.io`
 3. Edit `index.html` so it has information about you, and your project
