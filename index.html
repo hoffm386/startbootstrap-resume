@@ -57,18 +57,18 @@
           <!-- · (xxx) xxx-xxxx ·
           <a href="email">email</a> -->
         </div>
-        <p class="lead mb-5">I like to help people and organizations use data to 
+        <p class="lead mb-5">I support people and organizations in using data to 
           make the world a better place - magnify their positive impact, improve their efficiency, 
           reduce their consumption, support their communities, and evaluate their progess.
         </p>
         <div class="social-icons">
-          <a href="https://www.linkedin.com/in/allisonhonold/">
+          <a href="https://www.linkedin.com/in/allisonhonold/" target="_blank">
             <i class="fab fa-linkedin-in"></i>
           </a>
-          <a href="https://github.com/allisonhonold">
+          <a href="https://github.com/allisonhonold" target="_blank">
             <i class="fab fa-github"></i>
           </a>
-          <a href="https://twitter.com/allisonhonold">
+          <a href="https://twitter.com/allisonhonold" target="_blank">
             <i class="fab fa-twitter"></i>
           </a>
         </div>
@@ -77,30 +77,93 @@
 
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="projects">
+     <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="projects">
       <div class="w-100">
         <h2 class="mb-5">Projects</h2>
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
+            <h3 class="mb-0">Investigating Grading at UW Madison</h3>
+            <div class="subheading mb-3">Hypothesis testing</div>
+            <p>
+                <a href="https://aaronwchen.github.io/" target="_blank" 
+                  class="text-primary">Aaron Chen
+                </a> 
+                and I used the 
+                <a href="https://www.kaggle.com/Madgrades/uw-madison-courses" target="_blank" 
+                  class="text-primary">UW Madison Courses and Grades 2006-2017
+                </a> 
+                data set to investigate the following questions:
+            </p>
+              <ul>
+                <li>Does the day of the week a class is held affect average student success?</li>
+                <li>Have grades increased or decreased over time? Is there evidence of 
+                  grade inflation or grade deflation?
+                </li>
+                <li>Does the time of day a class is held affect student success?</li>
+                <li>Do individual teachers in the math department grade differently
+                  (easier or harder) than the deparment as a whole?
+                </li>
+                <li>Do STEM classes have a lower section avearge GPA than non-stem classes?</li>
+              </ul>
+
+            </p>
+            <p>
+              In addition to querying the database with SQL, we utilized the following python 
+              packages and modules: sqlalchemy, pandas, matplotlib.pyplot, numpy, and scipy.stats.
+            </p>
+           </div>
+          <div class="resume-date text-md-right">
+            <p>
+              <a href="jupyter_notebooks/days_of_week_gpas.html" target="_blank" 
+                class="text-primary">View Day of Week Jupyter Notebook
+              </a>
+            </p>
+            <p>
+              <a href="jupyter_notebooks/grade_inflation_all_years.html" target="_blank" 
+                class="text-primary">View Grade Inflation Jupyter Notebook
+              </a>
+            </p>
+            <p>
+              <a href="jupyter_notebooks/morning_afternoon_gpa.html" target="_blank" 
+                class="text-primary">View View Time of Day Jupyter Notebook
+              </a>
+            </p>
+            <p>
+              <a href="jupyter_notebooks/math_teacher_gpa.html" target="_blank" 
+                class="text-primary">View Math Instructor Jupyter Notebook
+              </a>
+            </p>
+            <p>
+              <a href="jupyter_notebooks/stem_non_stem_gpas.html" target="_blank" 
+                class="text-primary">View STEM Jupyter Notebook
+              </a>
+            </p>
+          </div>
+          
+        </div>
+
+
+        <!-- <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
             <h3 class="mb-0">Predicting Home Values</h3>
             <div class="subheading mb-3">Utilize linear regression to predict home values 
               in King County</div>
             <p>
-              <!-- This is the first paragraph of description about Mod 1 -->
-            </p>
-            <p>
+              This is the first paragraph of description about Mod 1 
+             </p>
+            <p> -->
               <!-- This is the second paragraph of description about Mod 1 -->
-            </p>
-          </div>
+            <!-- </p>
+           </div>
           <div class="resume-date text-md-right">
             <a href="jupyter_notebooks/example.html" class="text-primary">View Jupyter Notebook</a>
           </div>
-        </div>
+        </div> --> 
 
       </div>
 
-    </section>
+    </section> 
 
   </div>
 
