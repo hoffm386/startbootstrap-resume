@@ -77,14 +77,54 @@
 
     <hr class="m-0">
 
+      <!-- projects -->
      <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="projects">
       <div class="w-100">
         <h2 class="mb-5">Projects</h2>
 
+
+        <!-- project #1 -->
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Identifying Zipcodes for Investment Properties</h3>
+            <div class="subheading mb-3">Maximize predicted ROI with time series
+              analysis</div>
+            <p>
+              <a href="https://dirkstrong1.github.io/" target="_blank" 
+                  class="text-primary">Dirk Van Curan II
+                </a> 
+                and I used the 
+                <a href="https://www.zillow.com/research/data/" target="_blank" 
+                  class="text-primary">Zillow Research
+                </a> 
+                data set to identify zipcodes that would fit our investment goals
+                over the five years following our data set (April 2018). We were
+                looking for the top five zipcodes for upside potential, expected
+                value, and lower risk. We measured in terms of maximum ROI over 
+                the five year period, without regard to the time value of money,
+                since we are using the same five year period for each potential
+                investment.
+             </p>
+            <p>
+              We used fbProphet for our time series modeling, pandas for our 
+              data cleaning and dataframe handling, matplotlib.pyplot for
+              our data visualizations, and scipy.stats to assist with our 
+              statistical analysis.
+            </p>
+           </div>
+          <div class="resume-date text-md-right">
+            <a href="https://github.com/allisonhonold/Zillow_investment_zipcodes" 
+              target="_blank"
+              class="text-primary">View GitHub repo
+            </a>
+          </div>
+        </div>
+        
+        <!-- project #2 -->
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
             <h3 class="mb-0">Investigating Grading at UW Madison</h3>
-            <div class="subheading mb-3">Hypothesis testing</div>
+            <div class="subheading mb-3">Hypothesis testing, complex SQL quering</div>
             <p>
                 <a href="https://aaronwchen.github.io/" target="_blank" 
                   class="text-primary">Aaron Chen
@@ -143,7 +183,7 @@
           
         </div>
 
-
+        <!-- project #3 -->
         <!-- <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
             <h3 class="mb-0">Predicting Home Values</h3>
